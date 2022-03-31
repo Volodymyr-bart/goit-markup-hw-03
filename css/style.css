@@ -43,6 +43,11 @@ h3 {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 body {
   font-family: 'Roboto', 'sans-serif';
   font-size: 14px;
@@ -399,7 +404,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 20px;
 }
 
 .project-list .item {
